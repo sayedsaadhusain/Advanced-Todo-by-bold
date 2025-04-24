@@ -224,7 +224,7 @@ const App = () => {
                     onChange={(e) => setEditingTitle(e.target.value)}
                     onKeyDown={(e) => handleEditKeyDown(e, todo.id)}
                     className="flex-grow px-1 py-0.5 border border-blue-500 rounded focus:outline-none dark:bg-gray-700 dark:text-white dark:border-blue-400 font-medium"
-                  />
+                  />    
                 ) : (
                   <span
                     className={`flex-grow font-medium ${todo.completed ? 'line-through text-gray-500 dark:text-gray-400' : 'text-gray-800 dark:text-gray-200'}`}
